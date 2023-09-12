@@ -1,6 +1,6 @@
 # React FrontEnd Developer Certification Project
 
-![Screenshot](insert_screenshot_image_url_here)
+![Screenshot](https://cdn.discordapp.com/attachments/1055044529943752734/1151124218990305331/Screenshot_2023-09-12_165335.png)
 
 ## Introduction
 
