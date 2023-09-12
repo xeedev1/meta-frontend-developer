@@ -1,10 +1,16 @@
 import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import TableReservation from "./pages/TableReservation";
+import ConfirmationForm from "./pages/ConfirmationForm";
 
 function App() {
   return (
-    <>
-      <h1>Hello Lols</h1>
-    </>
+    <Routes>
+      <Route exact path="/" element={<Home />} />
+      <Route path="/reserve-table" element={<TableReservation />} />
+      <Route path="/confirm-reservation" element={<ConfirmationForm />} />
+    </Routes>
   );
 }
 
